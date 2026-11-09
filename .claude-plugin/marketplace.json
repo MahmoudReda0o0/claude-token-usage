@@ -1,0 +1,1 @@
+{ "name": "token-usage", "owner": { "name": "MahmoudReda0o0" }, "plugins": [{ "name": "token-usage", "source": "./" }] }
