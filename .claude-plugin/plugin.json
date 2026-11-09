@@ -1,0 +1,28 @@
+{
+  "name": "token-usage",
+  "version": "0.2.0",
+  "description": "Shows token usage for this conversation, overall, per device, and the account's limits",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "device_name": {
+      "type": "string",
+      "title": "Device name",
+      "description": "How this device appears in the devices list (e.g. Laptop, Office PC)",
+      "default": ""
+    },
+    "gist_id": {
+      "type": "string",
+      "title": "Sync Gist ID",
+      "description": "ID of a private GitHub Gist the devices share to sync their usage",
+      "default": ""
+    },
+    "github_token": {
+      "type": "string",
+      "title": "GitHub token",
+      "description": "A GitHub token with the gist scope, used to read and write the sync Gist",
+      "sensitive": true,
+      "default": ""
+    }
+  }
+}
